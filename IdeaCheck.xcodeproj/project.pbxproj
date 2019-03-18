@@ -12,6 +12,7 @@
 		1800E0A7223D3C5F00F4877E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1800E0A5223D3C5F00F4877E /* Main.storyboard */; };
 		1800E0A9223D3C6100F4877E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1800E0A8223D3C6100F4877E /* Assets.xcassets */; };
 		1800E0AC223D3C6100F4877E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1800E0AA223D3C6100F4877E /* LaunchScreen.storyboard */; };
+		1800E0B7223D43BB00F4877E /* WordShowCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800E0B6223D43BB00F4877E /* WordShowCtrler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1800E0A8223D3C6100F4877E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1800E0AB223D3C6100F4877E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1800E0AD223D3C6100F4877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1800E0B6223D43BB00F4877E /* WordShowCtrler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordShowCtrler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,8 @@
 		1800E0A0223D3C5F00F4877E /* IdeaCheck */ = {
 			isa = PBXGroup;
 			children = (
+				1800E0B5223D439400F4877E /* Ctrlers */,
+				1800E0B3223D3D8C00F4877E /* Utils */,
 				1800E0A1223D3C5F00F4877E /* AppDelegate.swift */,
 				1800E0A3223D3C5F00F4877E /* ViewController.swift */,
 				1800E0A5223D3C5F00F4877E /* Main.storyboard */,
@@ -62,6 +66,21 @@
 				1800E0AD223D3C6100F4877E /* Info.plist */,
 			);
 			path = IdeaCheck;
+			sourceTree = "<group>";
+		};
+		1800E0B3223D3D8C00F4877E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1800E0B5223D439400F4877E /* Ctrlers */ = {
+			isa = PBXGroup;
+			children = (
+				1800E0B6223D43BB00F4877E /* WordShowCtrler.swift */,
+			);
+			path = Ctrlers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1800E0A4223D3C5F00F4877E /* ViewController.swift in Sources */,
+				1800E0B7223D43BB00F4877E /* WordShowCtrler.swift in Sources */,
 				1800E0A2223D3C5F00F4877E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
