@@ -10,6 +10,4 @@
 
 使用多种低占用的字体构建的阅读应用，最求文字之美。
 
-
-
-![](./screenshots/fontsabout.png)
+<img src="./screenshots/fontsabout.png" width="375" />
