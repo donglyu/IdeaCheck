@@ -14,8 +14,12 @@
 		1800E0AC223D3C6100F4877E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1800E0AA223D3C6100F4877E /* LaunchScreen.storyboard */; };
 		1800E0B7223D43BB00F4877E /* WordShowCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1800E0B6223D43BB00F4877E /* WordShowCtrler.swift */; };
 		18020D642249CEEC00FA4A8D /* Tianshi-SunOld.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18020D632249CEEC00FA4A8D /* Tianshi-SunOld.ttf */; };
+		18020DD3224A2F0800FA4A8D /* IconFontUseCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18020DD2224A2F0800FA4A8D /* IconFontUseCtrler.swift */; };
 		1809B485223F317000C8B561 /* ICNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809B484223F317000C8B561 /* ICNavigationController.swift */; };
 		1809B49B223FA1FB00C8B561 /* ICViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1809B49A223FA1FB00C8B561 /* ICViewController.swift */; };
+		182701BC2251A303009AD200 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182701BB2251A303009AD200 /* UIColorExt.swift */; };
+		18D91DD5224CC194008224DF /* 杨任东竹石体-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D91DD4224CC194008224DF /* 杨任东竹石体-Regular.ttf */; };
+		18D91DD7224CCFBA008224DF /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D91DD6224CCFBA008224DF /* iconfont.ttf */; };
 		242E931D96920EB9F48326EE /* Pods_IdeaCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF8B50729DCC782D9ED76E5 /* Pods_IdeaCheck.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +33,12 @@
 		1800E0AD223D3C6100F4877E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1800E0B6223D43BB00F4877E /* WordShowCtrler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordShowCtrler.swift; sourceTree = "<group>"; };
 		18020D632249CEEC00FA4A8D /* Tianshi-SunOld.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tianshi-SunOld.ttf"; sourceTree = "<group>"; };
+		18020DD2224A2F0800FA4A8D /* IconFontUseCtrler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontUseCtrler.swift; sourceTree = "<group>"; };
 		1809B484223F317000C8B561 /* ICNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICNavigationController.swift; sourceTree = "<group>"; };
 		1809B49A223FA1FB00C8B561 /* ICViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICViewController.swift; sourceTree = "<group>"; };
+		182701BB2251A303009AD200 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		18D91DD4224CC194008224DF /* 杨任东竹石体-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "杨任东竹石体-Regular.ttf"; sourceTree = "<group>"; };
+		18D91DD6224CCFBA008224DF /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		2BF8B50729DCC782D9ED76E5 /* Pods_IdeaCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdeaCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5353FF0B361C8CB553679528 /* Pods-IdeaCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck.debug.xcconfig"; sourceTree = "<group>"; };
 		DDBE7021B835166D07B8EEF5 /* Pods-IdeaCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaCheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				1800E0B6223D43BB00F4877E /* WordShowCtrler.swift */,
+				18020DD2224A2F0800FA4A8D /* IconFontUseCtrler.swift */,
 			);
 			path = Ctrlers;
 			sourceTree = "<group>";
@@ -112,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				18020D632249CEEC00FA4A8D /* Tianshi-SunOld.ttf */,
+				18D91DD4224CC194008224DF /* 杨任东竹石体-Regular.ttf */,
+				18D91DD6224CCFBA008224DF /* iconfont.ttf */,
 			);
 			path = Res;
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 		1809B482223F30FB00C8B561 /* Ext */ = {
 			isa = PBXGroup;
 			children = (
+				182701BB2251A303009AD200 /* UIColorExt.swift */,
 			);
 			path = Ext;
 			sourceTree = "<group>";
@@ -202,7 +214,9 @@
 			files = (
 				18020D642249CEEC00FA4A8D /* Tianshi-SunOld.ttf in Resources */,
 				1800E0AC223D3C6100F4877E /* LaunchScreen.storyboard in Resources */,
+				18D91DD7224CCFBA008224DF /* iconfont.ttf in Resources */,
 				1800E0A9223D3C6100F4877E /* Assets.xcassets in Resources */,
+				18D91DD5224CC194008224DF /* 杨任东竹石体-Regular.ttf in Resources */,
 				1800E0A7223D3C5F00F4877E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +279,9 @@
 				1809B49B223FA1FB00C8B561 /* ICViewController.swift in Sources */,
 				1800E0B7223D43BB00F4877E /* WordShowCtrler.swift in Sources */,
 				1800E0A2223D3C5F00F4877E /* AppDelegate.swift in Sources */,
+				182701BC2251A303009AD200 /* UIColorExt.swift in Sources */,
 				1809B485223F317000C8B561 /* ICNavigationController.swift in Sources */,
+				18020DD3224A2F0800FA4A8D /* IconFontUseCtrler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,12 +429,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FXLS2N7QR;
 				INFOPLIST_FILE = IdeaCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyds.test1.IdeaCheck;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyds.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -431,12 +448,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FXLS2N7QR;
 				INFOPLIST_FILE = IdeaCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyds.test1.IdeaCheck;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyds.test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

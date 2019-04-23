@@ -10,7 +10,9 @@ import UIKit
 import SnapKit
 
 class WordShowCtrler: ICViewController {
-
+    var wordFontName = "YRDZST-Regular"
+    
+    
     let showWords1 = "现在，要剧终散场了\r\n我的人生大幕就要落下\r\n朋友啊，有些话\r\n我要说清楚\r\n有些确定无疑的事，我要讲明白。"
 
     let showWords2 = "And now, the end is near.\nAnd so I face the final curtain.\nMy friend, I’ll say it clear;\nI’ll state my case, of which I’m certain.\n现在，要剧终散场了\n我的人生大幕就要落下\n朋友啊，有些话我要说清楚\n有些确定无疑的事，我要讲明白\n\nI’ve lived a life that’s full;\nI’ve traveled each and every highway;\nBut more, much more than this,\nI did it my way.\n我度过了充实的一生\n我走过了每一条道路\n可是不，远不止这些\n我是用自己的方式走过了人生的路"
@@ -23,8 +25,13 @@ class WordShowCtrler: ICViewController {
     lazy var showLabel:UILabel = {
         var label = UILabel.init()
 //        label
-        guard let font = UIFont.init(name: "Tianshi-SunOld", size: CGFloat(fontSize)) else{
-            print("font is nil")
+        
+        wordFontName = "YRDZST-Regular"
+//        "Tianshi-SunOld"
+        
+        guard let font = UIFont.init(name: wordFontName, size: CGFloat(fontSize)) else{
+            print("font is nil!!!!!!!!!!!!")
+            assert(false)
             return label
         }
         label.font = font
@@ -44,12 +51,6 @@ class WordShowCtrler: ICViewController {
         SetupView()
         
         
-        
-        
-        
-        
-        
-        
         PrintFontNames()
         
         
@@ -62,6 +63,7 @@ class WordShowCtrler: ICViewController {
             make.center.equalTo(self.view)
         }
         
+        // 行间距调整
         lineSpaceSlider = UISlider.init()
         lineSpaceSlider?.minimumValue = 0
         lineSpaceSlider?.maximumValue = 50
@@ -88,7 +90,7 @@ class WordShowCtrler: ICViewController {
         //将行间距设置为28
         paraph.lineSpacing = CGFloat(intSliderValue)
         //样式属性集合
-        let attributes = [NSAttributedString.Key.font:UIFont.init(name: "Tianshi-SunOld", size: CGFloat(fontSize)),
+        let attributes = [NSAttributedString.Key.font:UIFont.init(name: wordFontName, size: CGFloat(fontSize)),
                           NSAttributedString.Key.paragraphStyle: paraph]
         showLabel.attributedText = NSAttributedString(string: showWords2, attributes: attributes as [NSAttributedString.Key : Any])
         

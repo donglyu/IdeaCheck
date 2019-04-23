@@ -27,7 +27,8 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         // Do any additional setup after loading the view, typically from a nib.
         self.tableView.backgroundColor = UIColor.white
             
-        Ideas = [CellNameModel(name: "Fonts About", jumpClass: WordShowCtrler.self)]
+        Ideas = [CellNameModel(name: "Fonts About", jumpClass: WordShowCtrler.self),
+        CellNameModel(name: "Icon Fonts About", jumpClass: IconFontUseCtrler.self)]
         
         
         
@@ -90,7 +91,7 @@ extension ViewController{
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return Ideas.count
     }
     
     

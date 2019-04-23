@@ -12,7 +12,7 @@ class ICViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
         self.navigationItem.leftBarButtonItem =
             UIBarButtonItem.init(title: "back", style: UIBarButtonItem.Style.plain, target: self, action: #selector(clickNaviBack))
