@@ -27,8 +27,11 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         // Do any additional setup after loading the view, typically from a nib.
         self.tableView.backgroundColor = UIColor.white
             
-        Ideas = [CellNameModel(name: "Fonts About", jumpClass: WordShowCtrler.self),
-        CellNameModel(name: "Icon Fonts About", jumpClass: IconFontUseCtrler.self)]
+        Ideas = [CellNameModel(name: "custom fonts demo", jumpClass: WordShowCtrler.self),
+        CellNameModel(name: "iconfont demo", jumpClass: IconFontUseCtrler.self),
+        CellNameModel(name: "pop in swift", jumpClass: PopAnimationCtrler.self),
+        CellNameModel(name: "neon effect", jumpClass: NeonLightEffectCtrler.self)
+        ]
         
         
         

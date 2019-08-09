@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,12 @@
 		18D91DD5224CC194008224DF /* 杨任东竹石体-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D91DD4224CC194008224DF /* 杨任东竹石体-Regular.ttf */; };
 		18D91DD7224CCFBA008224DF /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D91DD6224CCFBA008224DF /* iconfont.ttf */; };
 		242E931D96920EB9F48326EE /* Pods_IdeaCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF8B50729DCC782D9ED76E5 /* Pods_IdeaCheck.framework */; };
+		7016388322FD151200F2CC59 /* GlowLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7016388222FD151200F2CC59 /* GlowLabel.swift */; };
+		7021E03222F137BC004D8372 /* PopAnimationCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7021E03022F137BC004D8372 /* PopAnimationCtrler.swift */; };
+		7021E03322F137BC004D8372 /* PopAnimationCtrler.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7021E03122F137BC004D8372 /* PopAnimationCtrler.xib */; };
+		70246C7722F58AF70071B68B /* NeonLightEffectCtrler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70246C7522F58AF70071B68B /* NeonLightEffectCtrler.swift */; };
+		70246C7822F58AF70071B68B /* NeonLightEffectCtrler.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70246C7622F58AF70071B68B /* NeonLightEffectCtrler.xib */; };
+		70326B7422F81B7F0079FBC9 /* GlowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70326B7322F81B7F0079FBC9 /* GlowLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +47,12 @@
 		18D91DD6224CCFBA008224DF /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		2BF8B50729DCC782D9ED76E5 /* Pods_IdeaCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IdeaCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5353FF0B361C8CB553679528 /* Pods-IdeaCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck.debug.xcconfig"; sourceTree = "<group>"; };
+		7016388222FD151200F2CC59 /* GlowLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowLabel.swift; sourceTree = "<group>"; };
+		7021E03022F137BC004D8372 /* PopAnimationCtrler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimationCtrler.swift; sourceTree = "<group>"; };
+		7021E03122F137BC004D8372 /* PopAnimationCtrler.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopAnimationCtrler.xib; sourceTree = "<group>"; };
+		70246C7522F58AF70071B68B /* NeonLightEffectCtrler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonLightEffectCtrler.swift; sourceTree = "<group>"; };
+		70246C7622F58AF70071B68B /* NeonLightEffectCtrler.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NeonLightEffectCtrler.xib; sourceTree = "<group>"; };
+		70326B7322F81B7F0079FBC9 /* GlowLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowLayer.swift; sourceTree = "<group>"; };
 		DDBE7021B835166D07B8EEF5 /* Pods-IdeaCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IdeaCheck.release.xcconfig"; path = "Pods/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +125,9 @@
 			children = (
 				1800E0B6223D43BB00F4877E /* WordShowCtrler.swift */,
 				18020DD2224A2F0800FA4A8D /* IconFontUseCtrler.swift */,
+				7021E03022F137BC004D8372 /* PopAnimationCtrler.swift */,
+				7021E03122F137BC004D8372 /* PopAnimationCtrler.xib */,
+				70326B6E22F8198F0079FBC9 /* NeonLightAbout */,
 			);
 			path = Ctrlers;
 			sourceTree = "<group>";
@@ -150,6 +165,17 @@
 				2BF8B50729DCC782D9ED76E5 /* Pods_IdeaCheck.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70326B6E22F8198F0079FBC9 /* NeonLightAbout */ = {
+			isa = PBXGroup;
+			children = (
+				7016388222FD151200F2CC59 /* GlowLabel.swift */,
+				70326B7322F81B7F0079FBC9 /* GlowLayer.swift */,
+				70246C7522F58AF70071B68B /* NeonLightEffectCtrler.swift */,
+				70246C7622F58AF70071B68B /* NeonLightEffectCtrler.xib */,
+			);
+			path = NeonLightAbout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +241,11 @@
 				18020D642249CEEC00FA4A8D /* Tianshi-SunOld.ttf in Resources */,
 				1800E0AC223D3C6100F4877E /* LaunchScreen.storyboard in Resources */,
 				18D91DD7224CCFBA008224DF /* iconfont.ttf in Resources */,
+				70246C7822F58AF70071B68B /* NeonLightEffectCtrler.xib in Resources */,
 				1800E0A9223D3C6100F4877E /* Assets.xcassets in Resources */,
 				18D91DD5224CC194008224DF /* 杨任东竹石体-Regular.ttf in Resources */,
 				1800E0A7223D3C5F00F4877E /* Main.storyboard in Resources */,
+				7021E03322F137BC004D8372 /* PopAnimationCtrler.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,20 +258,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IdeaCheck/Pods-IdeaCheck-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6548D970D94561F78F99DFF6 /* [CP] Check Pods Manifest.lock */ = {
@@ -275,12 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70246C7722F58AF70071B68B /* NeonLightEffectCtrler.swift in Sources */,
 				1800E0A4223D3C5F00F4877E /* ViewController.swift in Sources */,
+				70326B7422F81B7F0079FBC9 /* GlowLayer.swift in Sources */,
+				7016388322FD151200F2CC59 /* GlowLabel.swift in Sources */,
 				1809B49B223FA1FB00C8B561 /* ICViewController.swift in Sources */,
 				1800E0B7223D43BB00F4877E /* WordShowCtrler.swift in Sources */,
 				1800E0A2223D3C5F00F4877E /* AppDelegate.swift in Sources */,
 				182701BC2251A303009AD200 /* UIColorExt.swift in Sources */,
 				1809B485223F317000C8B561 /* ICNavigationController.swift in Sources */,
+				7021E03222F137BC004D8372 /* PopAnimationCtrler.swift in Sources */,
 				18020DD3224A2F0800FA4A8D /* IconFontUseCtrler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
