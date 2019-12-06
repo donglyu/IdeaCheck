@@ -98,16 +98,16 @@
 		1800E0A0223D3C5F00F4877E /* IdeaCheck */ = {
 			isa = PBXGroup;
 			children = (
+				1800E0A1223D3C5F00F4877E /* AppDelegate.swift */,
+				1800E0A3223D3C5F00F4877E /* ViewController.swift */,
+				1800E0A5223D3C5F00F4877E /* Main.storyboard */,
+				1800E0AD223D3C6100F4877E /* Info.plist */,
 				18097ED322431F960004D662 /* Res */,
 				1809B483223F314A00C8B561 /* Base */,
 				1800E0B5223D439400F4877E /* Ctrlers */,
 				1800E0B3223D3D8C00F4877E /* Utils */,
-				1800E0A1223D3C5F00F4877E /* AppDelegate.swift */,
-				1800E0A3223D3C5F00F4877E /* ViewController.swift */,
-				1800E0A5223D3C5F00F4877E /* Main.storyboard */,
 				1800E0A8223D3C6100F4877E /* Assets.xcassets */,
 				1800E0AA223D3C6100F4877E /* LaunchScreen.storyboard */,
-				1800E0AD223D3C6100F4877E /* Info.plist */,
 			);
 			path = IdeaCheck;
 			sourceTree = "<group>";

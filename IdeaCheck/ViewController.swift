@@ -9,6 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
+    
+    // demos List.
+    var Ideas:Array<CellNameModel>! = [
+    CellNameModel(name: "1. custom fonts demo", jumpClass: WordShowCtrler.self),
+    CellNameModel(name: "2. iconfont demo", jumpClass: IconFontUseCtrler.self),
+    CellNameModel(name: "3. pop in swift", jumpClass: PopAnimationCtrler.self),
+    CellNameModel(name: "4. neon effect", jumpClass: NeonLightEffectCtrler.self)
+    ]
+    
+    
     lazy var tableView:UITableView = {
         
         let _tableview = UITableView.init(frame: UIScreen.main.bounds)
@@ -20,18 +30,13 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         
     }()
     
-    var Ideas:Array<CellNameModel>!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.tableView.backgroundColor = UIColor.white
             
-        Ideas = [CellNameModel(name: "custom fonts demo", jumpClass: WordShowCtrler.self),
-        CellNameModel(name: "iconfont demo", jumpClass: IconFontUseCtrler.self),
-        CellNameModel(name: "pop in swift", jumpClass: PopAnimationCtrler.self),
-        CellNameModel(name: "neon effect", jumpClass: NeonLightEffectCtrler.self)
-        ]
         
         
         
@@ -73,6 +78,7 @@ extension ViewController{
             
             let vc = classType.init()
             let nac = ICNavigationController.init(rootViewController: vc)
+            nac.modalPresentationStyle = .fullScreen
             self.present(nac, animated: true, completion: nil)
             return;
         }

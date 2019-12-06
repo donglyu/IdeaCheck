@@ -1,14 +1,18 @@
 PODS:
   - pop (1.0.11)
   - SnapKit (4.2.0)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - pop (from `https://github.com/facebook/pop.git`)
   - SnapKit
+  - YYText
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - SnapKit
+  trunk:
+    - YYText
 
 EXTERNAL SOURCES:
   pop:
@@ -22,7 +26,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   pop: ae3ae187018759968252242e175c21f7f9be5dd2
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: dffed1cb30cf16a18bab037e84859fddbd409b10
+PODFILE CHECKSUM: 472211e616b919cd0bac44218d819be396e92a5f
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.8.4

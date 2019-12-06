@@ -22,8 +22,10 @@
 ### 3.Pop Animation等其他动画 (未完待续)
 facebook等一些开源动画的常识使用
 
+<img src="./screenshots/pop.png" width="200" />
+
 ### 4.荧光系列
 一些荧光效果，比较适合暗背景App，加一些装点效果。其中有静态荧光(辉光)、动态荧光(辉光)
 
-<img src="./screenshots/neon.gif" width="200"/>
+<img src="./screenshots/neon.gif" width="200" />
 
